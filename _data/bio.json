@@ -22,7 +22,7 @@
       }
     ]
   },
-  "Interests": [
+  "interests": [
     {
       "name": "Traveling",
       "keywords": [
@@ -39,7 +39,7 @@
       ]
     }
   ],
-  "Skills": [
+  "skills": [
     {
       "name": "Microsoft Office",
       "level": "",
@@ -59,7 +59,7 @@
       ]
     }
   ],
-  "Education": [
+  "education": [
     {
       "institution": "University of Hawaii at Manoa, Honolulu, HI",
       "area": "Marketing and Managament Information Systems (expected Spring, 2023)",
@@ -71,7 +71,7 @@
       ]
     }
   ],
-  "Work Experience": [
+  "work experience": [
     {
       "company": "CU Hawaii Federal Credit Union",
       "position": "Member Service Representative",
@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "Extracurricular Activities": [
+  "extracurricular activities": [
     {
       "organization": "Delta Sigma Pi",
       "website": "http://dspuhm.com",
@@ -95,7 +95,7 @@
       "summary": "Maintained active member status in the professional Fraternity"
     }
   ],
-  "Awards": [
+  "awards": [
     {
       "title": "Dean's List",
       "date": "2019-Present",
@@ -103,7 +103,7 @@
       "summary": "Awarded to undergraduate students who earn a semester grade point average of 3.5 or higher."
     }
   ],
-  "References": [
+  "references": [
     {
       "name": "Available upon request",
       "reference": ""
