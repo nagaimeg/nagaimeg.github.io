@@ -41,64 +41,47 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Microsoft Office",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Word",
+        "Excel",
+        "Office"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Soft Skills",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Creativity",
+        "Teamwork",
+        "Communication"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Marketing and Managament Information Systems (expected Spring, 2023)",
+      "studyType": "B.B.A.",
+      "startDate": "2019-07-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
       ]
     }
   ],
-  "work": [
+  "Work Experience": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "CU Hawaii Federal Credit Union",
+      "position": "Member Service Representative",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2017-07-20",
+      "endDate": "2019-05-25",
+      "summary": "Assisted members with posting transactions",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Accurately posted deposits, withdrawls or transfers to members accounts",
+        "Answer members' questions and serve them in a polite and professional manner"
       ]
     }
   ],
