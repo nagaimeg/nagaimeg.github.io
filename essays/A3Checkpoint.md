@@ -28,7 +28,7 @@ My main concern is to prevent users who do not have an account from ordering pro
 Checkpoint D:
 Upon successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary):
  
-Upon successful login, I plan to personalize my UI by display a “Thank you _____ for logging in!” and a “Thank you _______ for your purchase message!.... A copy of the invoice has been sent to you at ___________.” To do this, I will mainly be storing the request.body.username in a variable and obtaining the email address from the username in the user_reg_info.json.
+Upon successful login, I plan to personalize my UI by display a “Thank you username for!” and a “Thank you username for your purchase message!.... A copy of the invoice has been sent to you at email.” To do this, I will mainly be storing the request.body.username in a variable and obtaining the email address from the username in the user_reg_info.json.
  
 Checkpoint E:
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?
