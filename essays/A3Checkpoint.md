@@ -5,7 +5,7 @@ title: Checkpoint Assignment 3
 date: 2020-12-03
 labels:
   - Blog
-  - Assignemnt 3
+  - Assignment 3
 ---
 
 Checkpoint A:
