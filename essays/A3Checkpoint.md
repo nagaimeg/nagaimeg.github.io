@@ -18,18 +18,20 @@ For example, a user who wants to order 3 diamond necklaces would go to the diamo
 Checkpoint B:
 Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their keys) you will use to manage the shopping cart data and how they will be used in $_SESSION.
  
-I will be using sessions to enable multiple users to order at once. One of the potential issues with my code from Assignment 2 was that the user’s product selections would overwrite. So I will use a session to prevent the cart from being overwritten. The example from Assignment 3 used a session and requested the info from the session.  
- 
+Since session are unique to a user, I can use a session to keep track of each user is saving to their cart. This data should not overwrite since each user has a specific session ID.
+
+I will also use sessions to keep track of the user’s shopping cart and store the shopping data to the session. Session data does not change unless it is destroyed, or the server is restarted so the data will transfer to the invoice. When the user checks out, the session data will be requested to write the invoice.
+
 Checkpoint C:
 How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?
  
-My main concern is to prevent users who do not have an account from ordering products/accessing the invoice page. To prevent this, I have a function that only displays the invoice if the login/registration is valid. The main concern is preventing people from accessing the invoice by just adding the proper URL string. Additionally, a potential problem that I have from assignment 2 is that the user’s product selection would be overwritten by the next user, so preventing that using sessions would be important.
+I can give the user a cookie once they log in. Since the cookie data is saved while moving through pages, when it is time to log out, I can request the cookie from the user. If there is not cookie, I will redirect the user to re-login. If there is a cookie the user can proceed to check out. To handle the security issues, I will set the cookie to expire. Since cookies are easily tampered with, I will make encrypt the cookie.
  
 Checkpoint D:
 Upon successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary):
  
 Upon successful login, I plan to personalize my UI by display a “Thank you username for!” and a “Thank you username for your purchase message!.... A copy of the invoice has been sent to you at email.” To do this, I will mainly be storing the request.body.username in a variable and obtaining the email address from the username in the user_reg_info.json.
- 
+
 Checkpoint E:
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?
  
