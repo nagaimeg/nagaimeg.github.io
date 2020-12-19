@@ -22,7 +22,7 @@ What was your biggest project risk and how was it managed?
  
 What is your assessment of the overall quality of the system?
 
- 	Overall, I think my assignment is okay. The quality is not amazing, considering the invoice is not formatted to match the theme, but it is functioning. 
+ Overall, I think my assignment is okay. The quality is not amazing, considering the invoice is not formatted to match the theme, but it is functioning. 
   
   
 What is needed before this system can be placed into operation?
