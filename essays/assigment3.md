@@ -11,6 +11,8 @@ labels:
 What was accomplished in the project as compared to what was planned?
 
  For this assignment, I was able to accomplish most of what I had planned. But if I had more time, I would have liked to format the invoice better so it fits with the theme.
+
+
 Any notable shortcomings, bugs, problems, or additional features not implemented?
  In my assignment, I was not able to add a plus and minus to the cart and destroy the session upon logging out. There was also an issue with the extended price that I had difficulty resolving.
  
