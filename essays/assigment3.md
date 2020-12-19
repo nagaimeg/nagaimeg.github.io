@@ -14,7 +14,8 @@ What was accomplished in the project as compared to what was planned?
 
 
 Any notable shortcomings, bugs, problems, or additional features not implemented?
- In my assignment, I was not able to add a plus and minus to the cart and destroy the session upon logging out. There was also an issue with the extended price that I had difficulty resolving.
+
+In my assignment, I was not able to add a plus and minus to the cart and destroy the session upon logging out. There was also an issue with the extended price that I had difficulty resolving.
  
  
 What was your biggest project risk and how was it managed?
